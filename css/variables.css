@@ -1,0 +1,9 @@
+/*
+  Design Tokens Nomenclature
+  ======
+  For design, the design tokens with the key 'fill' in the code correspond to 'bg'. Both refer to the background of the element. On the other hand,
+  the key 'content' in the design system pertains to all the content or elements within the element. In code,
+  it is handled as 'fill'. This is something that can be changed in the future. In Figma,
+  it's preferable for designers to refer to them as 'fill' and 'content', while in code, it makes more sense to call them 'bg' and 'fill'
+  https: //www.figma.com/file/GPykf6DnCGqnIWn9UBTvOm/DS-e-Commerce-2.0-%2F-2023---2024?type=design&node-id=1925-8092&mode=design&t=8P1VFm8iztUylGBv-0
+*/

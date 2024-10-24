@@ -1,0 +1,65 @@
+& {
+  /* primary-colors */
+  --prim-50: #fce6f5;
+  --prim-75: #fbdbf0;
+  --prim-100: #f6b0df;
+  --prim-200: #f18ad0;
+  --prim-300: #eb54ba;
+  --prim-400: #e733ad;
+  --prim-500: #e10098;
+  --prim-600: #cd008a;
+  --prim-700: #a0006c;
+  --prim-800: #7c0054;
+  --prim-900: #5f0040;
+
+  /* background */
+  --bg-primary: var(--carbon-white);
+  --bg-secondary: var(--carbon-25);
+  --bg-brand: var(--prim-500);
+
+  /* stroke */
+  --stroke-inverted: var(--carbon-white);
+  --stroke-lowest-emphasis: var(--carbon-25);
+  --stroke-low-emphasis: var(--carbon-75);
+  --stroke-middle-emphasis: var(--carbon-100);
+  --stroke-base: var(--carbon-500);
+  --stroke-brand: var(--prim-500);
+
+  /* text */
+  --text-inverted: var(--carbon-white);
+  --text-low-emphasis: var(--carbon-300);
+  --text-middle-emphasis: var(--carbon-400);
+  --text-base: var(--carbon-500);
+  --text-high-emphasis: var(--carbon-900);
+  --text-brand: var(--prim-500);
+
+  /* icon */
+  --icon-inverted: var(--carbon-white);
+  --icon-lowest-emphasis: var(--carbon-100);
+  --icon-low-emphasis: var(--carbon-300);
+  --icon-middle-emphasis: var(--carbon-400);
+  --icon-base: var(--carbon-500);
+  --icon-high-emphasis: var(--carbon-900);
+  --icon-brand: var(--prim-500);
+
+  /* cta / fill, stroke, content */
+  --cta-prim-default: var(--prim-500);
+  --cta-prim-hover: var(--prim-700);
+  --cta-prim-press: var(--prim-800);
+  --cta-negative: var(--carbon-300);
+  --cta-disabled: var(--carbon-75);
+  --cta-inverted: var(--carbon-white);
+
+  /* footer */
+  --footer-bg-primary: var(--carbon-400);
+  --footer-bg-secondary: var(--carbon-500);
+  --footer-text: var(--carbon-white);
+  --footer-brand: var(--prim-500);
+
+  /* feedback */
+  --feedback-success: var(--success-500);
+  --feedback-warning: var(--warning-500);
+  --feedback-error: var(--error-500);
+  --feedback-disabled: var(--carbon-75);
+  --feedback-flag: var(--blue-500);
+}

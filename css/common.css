@@ -1,0 +1,19 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.truncate-paragraph {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: initial;
+}
+
+.w-fill-available {
+  width: -webkit-fill-available; /* Para Chrome y Safari */
+  width: -moz-available; /* Para Firefox */
+  width: fill-available; /* En caso de que sea soportado */
+}

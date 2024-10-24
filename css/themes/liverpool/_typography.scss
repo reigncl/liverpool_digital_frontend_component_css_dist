@@ -1,0 +1,32 @@
+& {
+  // Heading
+  .heading-xs-bold {
+    @apply text-heading-xs font-bold; // 24px
+  }
+
+  // Body Text
+  .body-xl-semi {
+    @apply text-body-xl font-semibold; // 20px
+  }
+
+  .body-xl-regular {
+    @apply text-body-xl; // 20px
+  }
+
+  .body-sm-semi {
+    @apply text-body-sm font-semibold; // 14px
+  }
+
+  .body-sm-regular {
+    @apply text-body-sm;
+  }
+
+  // Links
+  .link-sm-regular {
+    @apply text-body-sm hover:underline;
+  }
+
+  ol > li::marker {
+    font-weight: bold;
+  }
+}
